@@ -1,1 +1,3 @@
-# ECV_D3_PROJET_05
+Created by Codrops
+
+Please read more about our license here: http://tympanus.net/codrops/licensing/ 
