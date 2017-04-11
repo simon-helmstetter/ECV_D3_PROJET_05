@@ -1,12 +1,15 @@
 /* Set all parents to full height */
-html, body, 
+html, body,
 .container,
 .cbp-fbscroller,
-.cbp-fbscroller section { 
-	height: 100%; 
+.cbp-fbscroller section {
+		height: 100%;
+	  font-family: 'Archivo Black', sans-serif;
+		font-weight: normal;
+		;
 }
 
-/* The nav is fixed on the right side  and we center it by translating it 50% 
+/* The nav is fixed on the right side  and we center it by translating it 50%
 (we don't know it's height so we can't use the negative margin trick) */
 .cbp-fbscroller > nav {
 	position: fixed;
@@ -25,12 +28,12 @@ html, body,
 	position: relative;
 	z-index: 9999;
 	color: transparent;
-	width: 26px;
-	height: 26px;
+	width: 75px;
+	height: 75px;
 	outline: none;
 	margin: 25px 0;
 	border-radius: 50%;
-	border: 4px solid #fff;
+	border: 4px solid;
 }
 
 .no-touch .cbp-fbscroller > nav a:hover {
@@ -54,22 +57,53 @@ html, body,
 }
 
 #fbsection1 {
-	background-image: url(../images/1.jpg);
+	background-image: url(../images/1.2.jpg);
 }
 
 #fbsection2 {
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/2.1.jpg);
 }
 
 #fbsection3 {
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/3.1.jpg);
 }
 
 #fbsection4 {
-	background-image: url(../images/4.jpg);
+	background-image: url(../images/4.1.jpg);
 }
 
 #fbsection5 {
-	background-image: url(../images/5.jpg);
+	background-image: url(../images/5.2.jpg);
 }
 
+h2 {
+
+	text-align: center;
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+p {
+
+	text-align: left;
+	font-size: 1.2em;
+
+
+	}
+
+	.section-content {
+		max-width: 800px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: absolute;
+		top : 50%;
+		left : 50%;
+		transform: translateX(-50%) translateY(-50%);
+		padding : 42px;
+		background: rgba(0, 0, 0, 0.7);
+	}
+	position: absolute;
+	top : 50%;
+	left : 50%;
+	transform: translateX(-50%) translateY(-50%);
